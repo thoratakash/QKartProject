@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="QKart">
+
+    <test name="QKart Test">
+       
+      <!--  <parameter name="browser" value="FireFox"> -->
+       <parameter name="browser" value="Chrome">
+
+   <classes>
+   
+        <class name="com.qkart.testCases.TC_LoginTest_001"/>  
+        <class name="com.qkart.testCases.TC_RegisterTest_002"/>  
+        
+        <class name="com.qkart.testCases.TC_AddToCart_003"/>  
+       <class name="com.qkart.testCases.TC_LoginDDT_004"/>
+       
+   </classes>
+
+</parameter>
+</test>
+</suite>
